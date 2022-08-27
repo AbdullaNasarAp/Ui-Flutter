@@ -193,7 +193,9 @@ class Payments extends StatelessWidget {
                 children: [
                   Row(
                     children: const [
-                      Text('Payment Overview'),
+                      Text(
+                        'Payment Overview',
+                      ),
                     ],
                   ),
                   Row(
@@ -223,16 +225,19 @@ class Payments extends StatelessWidget {
                       Card(
                         color: Colors.orange,
                         child: Padding(
-                          padding: const EdgeInsets.all(17),
+                          padding: const EdgeInsets.all(
+                            17,
+                          ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
                               Text(
                                 'AMOUNT ON HOLD',
                                 style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.w400),
+                                  color: Colors.white,
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w400,
+                                ),
                               ),
                               Text(
                                 '₹0',
@@ -253,7 +258,9 @@ class Payments extends StatelessWidget {
                       Card(
                         color: Colors.green,
                         child: Padding(
-                          padding: const EdgeInsets.all(17),
+                          padding: const EdgeInsets.all(
+                            17,
+                          ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
@@ -285,7 +292,9 @@ class Payments extends StatelessWidget {
                 children: [
                   Row(
                     children: const [
-                      Text('Transactions'),
+                      Text(
+                        'Transactions',
+                      ),
                     ],
                   ),
                 ],
@@ -295,23 +304,29 @@ class Payments extends StatelessWidget {
                 children: [
                   ElevatedButton(
                     onPressed: null,
-                    child: const Text('On hold'),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
+                    ),
+                    child: const Text(
+                      'On hold',
                     ),
                   ),
                   ElevatedButton(
                     onPressed: () {},
-                    child: const Text('Payouts(15)'),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
+                    ),
+                    child: const Text(
+                      'Payouts(15)',
                     ),
                   ),
                   ElevatedButton(
                     onPressed: null,
-                    child: const Text('Refunds'),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
+                    ),
+                    child: const Text(
+                      'Refunds',
                     ),
                   ),
                 ],

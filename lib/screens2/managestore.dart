@@ -25,10 +25,10 @@ List iconsColor = [
   Colors.orange[900],
   Colors.green,
   Colors.yellow[700],
-  Color.fromARGB(255, 15, 141, 107),
+  const Color.fromARGB(255, 15, 141, 107),
   Colors.grey,
-  Color.fromARGB(255, 91, 6, 210),
-  Color.fromARGB(255, 162, 35, 105)
+  const Color.fromARGB(255, 91, 6, 210),
+  const Color.fromARGB(255, 162, 35, 105)
 ];
 
 int _selectedIndex = 0;

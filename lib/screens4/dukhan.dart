@@ -38,7 +38,7 @@ class Dukaan extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Container(
+                      SizedBox(
                         width: 350,
                         height: 200,
                         child: Card(

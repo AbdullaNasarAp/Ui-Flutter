@@ -21,13 +21,13 @@ Widget gridviewlist() => GridView.builder(
               ),
             ),
             child: Padding(
-              child: Icon(
-                icons[index],
-                color: iconsColor[index],
-              ),
               padding: const EdgeInsets.only(
                 right: 120,
                 bottom: 40,
+              ),
+              child: Icon(
+                icons[index],
+                color: iconsColor[index],
               ),
             ),
           ),

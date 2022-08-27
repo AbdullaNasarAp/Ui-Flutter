@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uidesign/screens6/catelog_list.dart';
+import 'package:uidesign/screens6/catelog.dart';
 
 class OrderPage extends StatelessWidget {
   const OrderPage({Key? key}) : super(key: key);
